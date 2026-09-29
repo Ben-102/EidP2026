@@ -7,5 +7,5 @@ laufzeit = float(input("Bitte gib die Laufzeit in Jahren ein: "))
 endkapital = anfangskapital * (1 + zinssatz / 100) ** laufzeit
 
 print(
-    f"--- ZINSRECHNER ---\nAnfangskapital: {anfangskapital} Euro\nZinssatz: {zinssatz}%\nLaufzeit: {laufzeit} Jahre\n\nNach {laufzeit} Jahren beträgt das Endkapital: {endkapital} Euro."
+    f"--- ZINSRECHNER ---\nAnfangskapital: {anfangskapital} Euro\nZinssatz: {zinssatz}%\nLaufzeit: {laufzeit} Jahre\n\nNach {laufzeit} Jahren beträgt das Endkapital: {endkapital:.2} Euro."
 )
