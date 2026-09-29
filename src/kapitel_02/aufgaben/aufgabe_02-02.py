@@ -3,4 +3,7 @@
 summe = float(input("Wie hoch war die Rechnungssumme (in Euro)? "))
 p = float(input("Wie viele Personen teilen sich die Kosten? "))
 
-psumme = 
+psumme = summe % p
+
+print("--- KOSTENAUFTEILUNG ---")
+print("")
