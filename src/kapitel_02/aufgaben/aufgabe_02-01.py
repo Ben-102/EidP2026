@@ -3,6 +3,6 @@
 min = int(input("Bitte gib die Anzahl der Minuten ein: "))
 
 h = min // 60
-min2 = min
+min2 = min % 60
 
-print(f"{min} Minuten entsprechen {h} Stunde(n) und ")
+print(f"{min} Minuten entsprechen {h} Stunde(n) und {min2} Minute(n)")
