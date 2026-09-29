@@ -6,4 +6,4 @@ p = float(input("Wie viele Personen teilen sich die Kosten? "))
 psumme = summe % p
 
 print("--- KOSTENAUFTEILUNG ---")
-print("")
+print(f"Bei {p} Personen und einer Rechnungssumme von {summe} Euro: ")
