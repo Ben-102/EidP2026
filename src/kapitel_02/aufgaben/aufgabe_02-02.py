@@ -3,8 +3,8 @@
 summe = float(input("Wie hoch war die Rechnungssumme (in Euro)? "))
 p = float(input("Wie viele Personen teilen sich die Kosten? "))
 
-psumme = summe % p
+psumme = summe / p
 
 print("--- KOSTENAUFTEILUNG ---")
 print(f"Bei {p} Personen und einer Rechnungssumme von {summe} Euro: ")
-print(f"Jede Person zählt mind. {}")
+print(f"Jede Person zählt mind. {psumme}")
