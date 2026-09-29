@@ -7,3 +7,4 @@ psumme = summe % p
 
 print("--- KOSTENAUFTEILUNG ---")
 print(f"Bei {p} Personen und einer Rechnungssumme von {summe} Euro: ")
+print(f"Jede Person zählt mind. {}")
