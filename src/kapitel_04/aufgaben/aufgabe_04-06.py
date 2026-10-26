@@ -27,6 +27,7 @@ SZ = int(input("Anzahl Sonderzeichen: "))
 while True:
     if KB > 0:
         pw.append(random.choice(GROSSBUCHSTABEN))
+        KB = KB - 1
     else:
         break
 
