@@ -52,4 +52,5 @@ while True:
     else:
         break
 
-print(pw)
+
+print(str(random.shuffle(pw)))
