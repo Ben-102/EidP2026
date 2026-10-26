@@ -8,5 +8,5 @@ print(
 )
 noten[0] = 94
 noten.sort()
-durchschnitt = sum(noten) / sum(noten)
+durchschnitt = sum(noten) / len(noten)
 print(f"Finale Notenliste: {noten}\nNeuer Durchschnitt: {durchschnitt}")
