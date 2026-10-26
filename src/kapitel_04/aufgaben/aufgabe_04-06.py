@@ -17,3 +17,5 @@ print(SONDERZEICHEN)
 print(random.choice(SONDERZEICHEN))
 
 #  TODO: Deine Lösung hier:
+
+print("")
