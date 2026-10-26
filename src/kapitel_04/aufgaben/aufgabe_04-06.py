@@ -12,7 +12,6 @@ SONDERZEICHEN = string.punctuation
 
 # Tipps:
 print(SONDERZEICHEN)
-print("hhhhh")
 
 # experimentiere hier mehrfach mit SHIFT+ENTER
 print(random.choice(SONDERZEICHEN))
@@ -24,3 +23,9 @@ KB = input("Anzahl Kleinbuchstaben: ")
 GB = input("Anzahl Großbuchstaben: ")
 Z = input("Anzahl Zahlen: ")
 SZ = input("Anzahl Sonderzeichen: ")
+
+summe = KB + GB + Z + SZ
+
+for i in range(int(summe)):
+    randomzahl = random.choice(ZAHLEN)
+    if randomzahl = 1
