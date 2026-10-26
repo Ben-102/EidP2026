@@ -31,4 +31,25 @@ while True:
     else:
         break
 
+while True:
+    if KB > 0:
+        pw.append(random.choice(KLEINBUCHSTABEN))
+        KB = KB - 1
+    else:
+        break
+
+while True:
+    if KB > 0:
+        pw.append(random.choice(ZAHLEN))
+        KB = KB - 1
+    else:
+        break
+
+while True:
+    if KB > 0:
+        pw.append(random.choice(SONDERZEICHEN))
+        KB = KB - 1
+    else:
+        break
+
 print(pw)
