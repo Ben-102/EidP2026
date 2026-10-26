@@ -32,23 +32,23 @@ while True:
         break
 
 while True:
-    if KB > 0:
+    if GB > 0:
         pw.append(random.choice(KLEINBUCHSTABEN))
-        KB = KB - 1
+        GB = GB - 1
     else:
         break
 
 while True:
-    if KB > 0:
+    if Z > 0:
         pw.append(random.choice(ZAHLEN))
-        KB = KB - 1
+        Z = Z - 1
     else:
         break
 
 while True:
-    if KB > 0:
+    if SZ > 0:
         pw.append(random.choice(SONDERZEICHEN))
-        KB = KB - 1
+        SZ = SZ - 1
     else:
         break
 
