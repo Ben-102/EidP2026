@@ -17,7 +17,7 @@ print(SONDERZEICHEN)
 print(random.choice(SONDERZEICHEN))
 
 #  TODO: Deine Lösung hier:
-
+pw = ""
 print("--- Passwort-Generator ---")
 KB = input("Anzahl Kleinbuchstaben: ")
 GB = input("Anzahl Großbuchstaben: ")
