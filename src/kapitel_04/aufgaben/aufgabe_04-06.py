@@ -19,7 +19,7 @@ print(random.choice(SONDERZEICHEN))
 #  TODO: Deine Lösung hier:
 
 print("--- Passwort-Generator ---")
-input("Anzahl Kleinbuchstaben: ")
-input("Anzahl Kleinbuchstaben: ")
-input("Anzahl Kleinbuchstaben: ")
-input("Anzahl Kleinbuchstaben: ")
+KB = input("Anzahl Kleinbuchstaben: ")
+GB = input("Anzahl Großbuchstaben: ")
+Z = input("Anzahl Zahlen: ")
+SZ = input("Anzahl Sonderzeichen: ")
