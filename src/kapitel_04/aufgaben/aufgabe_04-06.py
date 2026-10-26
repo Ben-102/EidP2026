@@ -53,4 +53,4 @@ while True:
         break
 
 random.shuffle(pw)
-print(pw))
+print("".join(pw))
