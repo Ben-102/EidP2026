@@ -4,6 +4,9 @@
 einkaufsliste = []
 
 while True:
-    einkaufsliste.append = input(
+    artikel = input(
         "Gib einen Artikel für die Einkaufsliste ein (oder 'fertig' zum Beenden):"
     )
+    if artikel == "fertig":
+        break
+    einkaufsliste.append(artikel)
