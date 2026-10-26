@@ -18,4 +18,8 @@ print(random.choice(SONDERZEICHEN))
 
 #  TODO: Deine Lösung hier:
 
-print("")
+print("--- Passwort-Generator ---")
+input("Anzahl Kleinbuchstaben: ")
+input("Anzahl Kleinbuchstaben: ")
+input("Anzahl Kleinbuchstaben: ")
+input("Anzahl Kleinbuchstaben: ")
