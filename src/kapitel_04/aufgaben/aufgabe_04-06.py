@@ -17,7 +17,7 @@ print(SONDERZEICHEN)
 print(random.choice(SONDERZEICHEN))
 
 #  TODO: Deine Lösung hier:
-pw = ""
+pw = []
 print("--- Passwort-Generator ---")
 KB = int(input("Anzahl Kleinbuchstaben: "))
 GB = int(input("Anzahl Großbuchstaben: "))
@@ -26,7 +26,7 @@ SZ = int(input("Anzahl Sonderzeichen: "))
 
 while True:
     if KB > 0:
-        pw = pw + random.choice(GROSSBUCHSTABEN)
+        pw.append(random.choice(GROSSBUCHSTABEN))
     else:
         break
 
