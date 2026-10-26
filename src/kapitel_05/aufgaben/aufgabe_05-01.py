@@ -8,4 +8,5 @@ print(
 )
 noten[0] = 94
 noten.sort()
-print(f"Finale Notenliste: {noten}\nNeuer Durchschnitt: {sum(noten) / sum(noten)}")
+durchschnitt = sum(noten) / sum(noten)
+print(f"Finale Notenliste: {noten}\nNeuer Durchschnitt: {durchschnitt}")
