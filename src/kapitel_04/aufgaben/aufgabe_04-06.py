@@ -24,9 +24,6 @@ GB = input("Anzahl Großbuchstaben: ")
 Z = input("Anzahl Zahlen: ")
 SZ = input("Anzahl Sonderzeichen: ")
 
-summe = KB + GB + Z + SZ
-
-for i in range(int(summe)):
-    randomzahl = random.choice([1,2,3,4])
-    if randomzahl == 1:
+while True:
+    
         
