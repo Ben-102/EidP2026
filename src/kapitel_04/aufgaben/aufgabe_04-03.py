@@ -11,4 +11,4 @@ while True:
         break
     einkaufsliste.append(artikel)
 
-print(einkaufsliste)
+print("--- Deine Einkaufsliste ---\n" + "\n".join(einkaufsliste))
