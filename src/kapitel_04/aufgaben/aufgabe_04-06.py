@@ -12,6 +12,7 @@ SONDERZEICHEN = string.punctuation
 
 # Tipps:
 print(SONDERZEICHEN)
+print("hhhhh")
 
 # experimentiere hier mehrfach mit SHIFT+ENTER
 print(random.choice(SONDERZEICHEN))
