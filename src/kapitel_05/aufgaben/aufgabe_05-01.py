@@ -3,4 +3,4 @@
 noten = [88, 92, 77, 95, 81]
 noten.sort()
 
-print(noten)
+print(f"Ursprüngliche Noten: {noten}\nSchlechtestes Ergebnis {noten[0]}")
