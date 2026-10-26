@@ -10,3 +10,5 @@ while True:
     if artikel == "fertig":
         break
     einkaufsliste.append(artikel)
+
+print("--- Deine Einkaufsliste ---" + einkaufsliste)
