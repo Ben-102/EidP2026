@@ -15,5 +15,8 @@ for i in verkaufszahlen:
     if summe > temp2:
         temp2 = summe
         ergebis = temp
+    print(i)
+    start = start + 3
+    end = end + 3
 
 print(temp)
