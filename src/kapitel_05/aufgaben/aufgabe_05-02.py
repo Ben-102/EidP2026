@@ -15,11 +15,6 @@ for i in range(4):
     if summe > temp2:
         temp2 = summe
         ergebis = temp
-    print(temp2)
-    print(temp)
-    print(start)
-    print(end)
-    print("---")
     start = start + 3
     end = end + 3
 
