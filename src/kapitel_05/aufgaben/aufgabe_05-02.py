@@ -20,3 +20,4 @@ for i in range(4):
     quartal = quartal + 1
 
 print(f"Das beste Quartal war das {ergebnis}. Quartal.")
+print(f"Gesamtumsatz im besten Quartal: {temp2} Tausend Euro.")
