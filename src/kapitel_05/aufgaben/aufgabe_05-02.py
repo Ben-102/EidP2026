@@ -9,7 +9,11 @@ print(f"Die drei umsatzstärksten Monate hatten Verkäufe von: {staerkste}")
 for i in verkaufszahlen:
     start = 0
     end = 3
-    temp = sum(verkaufszahlen[start:end])
+    temp = verkaufszahlen[start:end]
+    summe = sum(verkaufszahlen[start:end])
     temp2 = 0
-    if temp > temp2:
-        temp2 = temp
+    if summe > temp2:
+        temp2 = summe
+
+
+print(temp)
