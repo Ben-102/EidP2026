@@ -14,6 +14,6 @@ for i in verkaufszahlen:
     temp2 = 0
     if summe > temp2:
         temp2 = summe
-
+        ergebis = temp
 
 print(temp)
