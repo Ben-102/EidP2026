@@ -17,6 +17,9 @@ for i in range(4):
         ergebis = temp
     print(temp2)
     print(temp)
+    print(start)
+    print(end)
+    print("---")
     start = start + 3
     end = end + 3
 
