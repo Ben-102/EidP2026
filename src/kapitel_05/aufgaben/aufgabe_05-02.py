@@ -6,9 +6,9 @@ sortedverkaufszahlen = sorted(verkaufszahlen)
 staerkste = sortedverkaufszahlen[-3:]
 print(f"Die drei umsatzstärksten Monate hatten Verkäufe von: {staerkste}")
 
+start = 0
+end = 3
 for i in range(4):
-    start = 0
-    end = 3
     temp = verkaufszahlen[start:end]
     summe = sum(verkaufszahlen[start:end])
     temp2 = 0
