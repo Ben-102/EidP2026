@@ -4,4 +4,4 @@ lagerbestand = [("Laptop", 15), ("Maus", 35), ("Tastatur", 8), ("Bildschirm", 5)
 print(f"Kritischer Lagerbestand (unter 10 Stück):")
 for i in lagerbestand:
     if i[1] < 10:
-        print("")
+        print(f"- {i[0]}: {i[1]} Stück")
