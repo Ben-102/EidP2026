@@ -5,5 +5,5 @@ Satz = Satz.lower()
 Satz = Satz.replace("!", "")
 Satz = Satz.replace(".", "")
 Satz = Satz.replace(",", "")
-satzdictionary = []
-print(Satz)
+satzdictionary = Satz.split()
+print(satzdictionary)
