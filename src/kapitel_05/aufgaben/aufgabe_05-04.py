@@ -6,6 +6,6 @@ brutto_preise = []
 print(f"Netto-Preise: {netto_preise}")
 
 for i in netto_preise:
-    brutto_preise.append(i * 1.19)
+    brutto_preise.append(round(i * 1.19, 2))
 
 print(f"Brutto-Preise (ink. 19% MwSt.): {brutto_preise}")
