@@ -2,5 +2,6 @@
 #  TODO: Ihre Lösung hier
 Satz = "Python ist super! Ja, wirklich super."
 Satz.lower()
-Satz.replace("!")
+Satz.replace("!.,", "")
 satzdictionary = []
+print(Satz)
