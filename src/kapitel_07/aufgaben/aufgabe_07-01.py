@@ -22,4 +22,4 @@ def berechne(zahl1: float, zahl2: float, operator: str):
         f"# Bei Aufruf von berechne({zahl1}, {zahl2}, {operator})\nErgebnis: {ergebnis}"
     )
 
-berechne(2,2,*)
+print(berechne(2,2,*))
