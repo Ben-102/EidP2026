@@ -5,9 +5,9 @@
 def erstelle_gruss(name: str, anrede: str = "Sehr geehrte/r", titel: str = ""):
     ergebnis = ""
     if titel == "":
-        ergebnis = ergebnis + anrede + " " + name
+        ergebnis = ergebnis + anrede + " " + name + ","
     else:
-        ergebnis = ergebnis + anrede + " " + titel + " " + name
+        ergebnis = ergebnis + anrede + " " + titel + " " + name + ","
     return ergebnis
 
 
