@@ -6,10 +6,6 @@ def berechne(zahl1: float, zahl2: float, operator: str):
     operator = input("Gib die Operation ein (+, -, *, /): ")
     ergebnis = 0
 
-    print(
-        f"# Bei Aufruf von berechne({zahl1}, {zahl2}, {operator})\nErgebnis: {ergebnis}"
-    )
-
     if operator == "+":
         ergebnis = zahl1 + zahl2
     elif operator == "-":
@@ -18,5 +14,10 @@ def berechne(zahl1: float, zahl2: float, operator: str):
         ergebnis = zahl1 * zahl2
     else:
         if zahl2 == 0:
-            print("")
-        ergebnis = zahl1 / zahl2
+            print("Fehler: Division durch 0 ist nicht definiert!")
+        else:
+            ergebnis = zahl1 / zahl2
+
+    print(
+        f"# Bei Aufruf von berechne({zahl1}, {zahl2}, {operator})\nErgebnis: {ergebnis}"
+    )
