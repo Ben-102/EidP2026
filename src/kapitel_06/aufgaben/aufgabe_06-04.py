@@ -9,3 +9,4 @@ bestellungen = [
 ]
 bestellungen_set = set(bestellungen)
 print(f"Anzahl der eindeutigen Kunden: {len(bestellungen_set)}")
+print(bestellungen_set)
