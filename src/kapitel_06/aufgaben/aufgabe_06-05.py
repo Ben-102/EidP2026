@@ -11,4 +11,5 @@ for i in rollen_rechte:
 
 
 print(f"Verfügbare Rollen: {', '.join(rollen)}")
-input("")
+rolle_eingabe = input("Gib deine Rolle ein:")
+berechtigung = input("Welche Berechtigung wird benötigt?")
