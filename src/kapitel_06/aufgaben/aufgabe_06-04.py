@@ -7,5 +7,5 @@ bestellungen = [
     (104, "K-003"),
     (105, "K-002"),
 ]
-bestell_id, kunden_id = bestellungen
-print(bestell_id)
+bestellungen_set = set(bestellungen)
+print(len(bestellungen_set))
