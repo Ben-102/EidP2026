@@ -11,3 +11,4 @@ for i in rollen_rechte:
 
 
 print(f"Verfügbare Rollen: {', '.join(rollen)}")
+input("")
