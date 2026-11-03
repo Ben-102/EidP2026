@@ -9,4 +9,3 @@ bestellungen = [
 ]
 bestellungen_set = {bestellungen[1] for bestellungen in bestellungen}
 print(f"Anzahl der eindeutigen Kunden: {len(bestellungen_set)}")
-print(bestellungen_set)
