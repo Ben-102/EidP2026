@@ -8,4 +8,4 @@ bestellungen = [
     (105, "K-002"),
 ]
 bestellungen_set = set(bestellungen)
-print(len(bestellungen_set))
+print(f"Anzahl der eindeutigen Kunden: {len(bestellungen_set)}")
