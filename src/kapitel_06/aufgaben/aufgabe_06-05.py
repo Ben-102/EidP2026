@@ -6,5 +6,8 @@ rollen_rechte = {
     "gast": {"lesen"},
 }
 
+for i in rollen_rechte:
+    rollen = rollen_rechte[i]
 
-print(f"Verfügbare Rollen: {}")
+
+print(f"Verfügbare Rollen: {rollen}")
