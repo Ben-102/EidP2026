@@ -11,7 +11,7 @@ def berechne(zahl1: float, zahl2: float, operator: str):
         ergebnis = zahl1 * zahl2
     else:
         if zahl2 == 0:
-            print("Fehler: Division durch 0 ist nicht definiert!")
+            return "Fehler: Division durch 0 ist nicht definiert!"
         else:
             ergebnis = zahl1 / zahl2
 
@@ -20,3 +20,5 @@ def berechne(zahl1: float, zahl2: float, operator: str):
 
 
 print(f"Ergebnis: {berechne(7, 6, '*')}")
+print(f"Ergebnis: {berechne(31, 73, '-')}")
+print(f"Ergebnis: {berechne(42, 0, '/')}")
