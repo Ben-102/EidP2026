@@ -7,6 +7,6 @@ bestellungen = [
     (104, "K-003"),
     (105, "K-002"),
 ]
-bestellungen_set = {bestellungen[1] for i in bestellungen}
+bestellungen_set = {bestellungen[1] for bestellungen in bestellungen}
 print(f"Anzahl der eindeutigen Kunden: {len(bestellungen_set)}")
 print(bestellungen_set)
