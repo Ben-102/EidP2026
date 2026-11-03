@@ -13,3 +13,7 @@ for i in rollen_rechte:
 print(f"Verfügbare Rollen: {', '.join(rollen)}")
 rolle_eingabe = input("Gib deine Rolle ein:")
 berechtigung = input("Welche Berechtigung wird benötigt?")
+
+if berechtigung in 
+
+print(f"Zugriff gewährt: Ein {rolle_eingabe} darf")
