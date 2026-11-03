@@ -5,9 +5,9 @@ rollen_rechte = {
     "editor": {"lesen", "schreiben"},
     "gast": {"lesen"},
 }
-rollen = []
+rollen = ""
 for i in rollen_rechte:
-    rollen.append(i)
+    rollen = rollen + 
 
 
 print(f"Verfügbare Rollen: {rollen}")
