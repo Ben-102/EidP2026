@@ -7,7 +7,7 @@ rollen_rechte = {
 }
 
 for i in rollen_rechte:
-    rollen = rollen_rechte[i]
+    rollen = i
 
 
 print(f"Verfügbare Rollen: {rollen}")
