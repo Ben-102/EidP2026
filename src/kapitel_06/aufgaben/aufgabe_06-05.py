@@ -5,3 +5,6 @@ rollen_rechte = {
     "editor": {"lesen", "schreiben"},
     "gast": {"lesen"},
 }
+
+
+print(f"Verfügbare Rollen: {}")
