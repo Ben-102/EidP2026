@@ -1,7 +1,7 @@
 # Aufgabe 07-03
 #  TODO: Ihre Lösung hier
 def noten_statistik(*noten: float):
-    ergebnis = {"beste": 0, "schlechteste": 0, "durchschnitt": 0}
+    ergebnis = {"beste": float, "schlechteste": float, "durchschnitt": float}
     sorted(noten)
     ergebnis["beste"] = noten[0]
     ergebnis["schlechteste"] = noten[-1]
