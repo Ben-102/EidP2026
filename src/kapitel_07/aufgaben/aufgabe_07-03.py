@@ -2,9 +2,10 @@
 #  TODO: Ihre Lösung hier
 def noten_statistik(*noten: float):
     ergebnis = {}
-    ergebnis["beste"] = min(noten)
-    ergebnis["schlechteste"] = max(noten)
-    ergebnis["durchschnitt"] = sum(noten) / len(noten)
+    if len(noten) == 0:
+        ergebnis["beste"] = min(noten)
+        ergebnis["schlechteste"] = max(noten)
+        ergebnis["durchschnitt"] = sum(noten) / len(noten)
     return ergebnis
 
 
