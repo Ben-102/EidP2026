@@ -1,6 +1,7 @@
 # Aufgabe 07-03
 #  TODO: Ihre Lösung hier
 def noten_statistik(*noten: float):
+    noten.sort()
     notenliste = noten
     notenliste.sort()
 
