@@ -2,8 +2,7 @@
 #  TODO: Ihre Lösung hier
 def noten_statistik(*noten: float):
     notenliste = noten
+    notenliste.sort()
 
-    print(notenliste)
 
-
-noten_statistik(1.0, 1.3, 2.0, 4.0, 2.7, 2.5)
+print(f"Statistik 1: {noten_statistik(1.0, 1.3, 2.0, 4.0, 2.7, 2.5)}")
