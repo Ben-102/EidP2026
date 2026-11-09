@@ -5,7 +5,7 @@ def noten_statistik(*noten: float):
     if len(noten) == 0:
         ergebnis["beste"] = None
         ergebnis["schlechteste"] = None
-        ergebnis["durchschnitt"] = None
+        ergebnis["durchschnitt"] = 0.0
     else:
         ergebnis["beste"] = min(noten)
         ergebnis["schlechteste"] = max(noten)
