@@ -2,6 +2,7 @@
 #  TODO: Ihre Lösung hier
 def noten_statistik(*noten: float):
     notenliste = {noten}
+
     print(notenliste)
 
 
