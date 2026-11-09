@@ -3,6 +3,10 @@
 def noten_statistik(*noten: float):
     ergebnis = {}
     if len(noten) == 0:
+        ergebnis["beste"] = None
+        ergebnis["schlechteste"] = None
+        ergebnis["durchschnitt"] = None
+    else:
         ergebnis["beste"] = min(noten)
         ergebnis["schlechteste"] = max(noten)
         ergebnis["durchschnitt"] = sum(noten) / len(noten)
