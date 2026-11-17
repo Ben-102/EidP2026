@@ -11,7 +11,7 @@ class Team:
         self.Mitglieder = []
 
     def add_mitglied(self, namen):
-        self.Mitglieder.append(Mitglied)
+        self.Mitglieder.append(namen)
 
     def show_mitglieder(self):
         print(f"Team: {self.team_namen}\n----------------")
