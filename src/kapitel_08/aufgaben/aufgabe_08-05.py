@@ -16,6 +16,7 @@ class BildPost(Post):
 
     def anzeigen(self):
         return super().anzeigen()
+        print("ffdf")
 
 
 class VideoPost(Post):
@@ -26,3 +27,5 @@ class VideoPost(Post):
 
 text_post = Post("user123", "Das ist ein einfacher Text-Post.")
 text_post.anzeigen()
+
+bild_post = BildPost("insta_star", "Urlaubsfoto! #sommer", "sonnenuntergang.jpg")
