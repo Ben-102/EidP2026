@@ -8,4 +8,5 @@ class Post:
     def anzeigen(self):
         print()
 
-class BildPost
+class BildPost:
+    def 
