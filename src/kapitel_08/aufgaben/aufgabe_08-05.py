@@ -15,13 +15,19 @@ class BildPost(Post):
         self.bild_datei = bild_datei
 
     def anzeigen(self):
-        return super().anzeigen()
+        super().anzeigen()
+        print(
+            f"--- Bild-Post von {self.autor} ---\n{self.inhalt}\n[{self.bild_datei}]\n------------"
+        )
 
 
 class VideoPost(Post):
     def __init__(self, autor, inhalt, video_datei):
         super().__init__(autor, inhalt)
         self.video_datei = video_datei
+
+    def anzeigen(self):
+        return super().anzeigen()
 
 
 text_post = Post("user123", "Das ist ein einfacher Text-Post.")
