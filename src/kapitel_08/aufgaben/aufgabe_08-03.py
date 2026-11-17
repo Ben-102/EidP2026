@@ -23,3 +23,4 @@ class Mitarbeiter:
 m1 = Mitarbeiter("Dieter", 11000)
 print(m1.gehalt)
 m1.gehalt = 13402
+print(m1.gehalt)
