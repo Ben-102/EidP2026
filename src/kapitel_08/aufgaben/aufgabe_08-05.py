@@ -35,9 +35,11 @@ class VideoPost(Post):
 
 
 text_post = Post("user123", "Das ist ein einfacher Text-Post.")
-text_post.anzeigen()
-
 bild_post = BildPost("insta_star", "Urlaubsfoto! #sommer", "sonnenuntergang.jpg")
 video_post = VideoPost(
     "youtuber", "Mein neues Tutorial ist online!", "anleitung.mp4", 65
 )
+
+text_post.anzeigen()
+bild_post.anzeigen()
+video_post.anzeigen()
