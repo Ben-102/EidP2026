@@ -9,9 +9,10 @@ class Post:
         print()
 
 class BildPost:
-    def Post(self, bild_datei)
+    def __init__(self, bild_datei)
         super().__init__()
         self.bild_datei = bild_datei
 
 class VideoPost:
-    def 
+    def __init__(self,video_datei)
+        super().__init__()
