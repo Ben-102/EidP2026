@@ -9,4 +9,4 @@ class Post:
         print()
 
 class BildPost:
-    def 
+    def Post
