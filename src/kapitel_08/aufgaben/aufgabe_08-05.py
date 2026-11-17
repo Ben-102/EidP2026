@@ -9,12 +9,18 @@ class Post:
         print()
 
 
-class BildPost:
+class BildPost(Post):
     def __init__(self, autor, inhalt, bild_datei):
         super().__init__(autor, inhalt)
         self.bild_datei = bild_datei
 
+    def anzeigen(self):
+        return super().anzeigen()
 
-class VideoPost:
+
+class VideoPost(Post):
     def __init__(self, autor, inhalt, video_datei):
         super().__init__(autor, inhalt)
+        self.video_datei = video_datei
+
+text_post = Post("user123", "Das ist ein einfacher Text-Post.")
