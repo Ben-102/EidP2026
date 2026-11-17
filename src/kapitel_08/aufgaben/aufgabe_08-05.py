@@ -15,7 +15,6 @@ class BildPost(Post):
         self.bild_datei = bild_datei
 
     def anzeigen(self):
-        super().anzeigen()
         print(
             f"--- Bild-Post von {self.autor} ---\n{self.inhalt}\n[{self.bild_datei}]\n------------\n"
         )
@@ -28,7 +27,6 @@ class VideoPost(Post):
         self.dauer = dauer
 
     def anzeigen(self):
-        super().anzeigen()
         print(
             f"--- Video-Post von {self.autor} ---\n{self.inhalt}\n[{self.video_datei} ({self.dauer})]\n------------\n"
         )
