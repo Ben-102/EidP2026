@@ -8,11 +8,13 @@ class Post:
     def anzeigen(self):
         print()
 
+
 class BildPost:
-    def __init__(self, bild_datei)
-        super().__init__()
+    def __init__(self, autor, inhalt, bild_datei):
+        super().__init__(autor, inhalt)
         self.bild_datei = bild_datei
 
+
 class VideoPost:
-    def __init__(self,video_datei)
-        super().__init__()
+    def __init__(self, autor, inhalt, video_datei):
+        super().__init__(autor, inhalt)
