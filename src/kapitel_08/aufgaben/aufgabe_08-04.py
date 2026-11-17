@@ -4,17 +4,23 @@ class Mitglied:
     def __init__(self, namen):
         self.namen = namen
 
+
 class Team:
-    def __init__(self, team_namen, Mitglieder):
+    def __init__(self, team_namen):
         self.team_namen = team_namen
-        self.Mitglieder = [Mitglied]
+        self.Mitglieder = []
 
-    def add_mitglied(mitglied):
+    def add_mitglied(self, namen):
+        self.Mitglieder.append(Mitglied)
+
+    def show_mitglieder(self):
+        print(f"Team: {self.team_namen}\n----------------")
+        for i in self.Mitglieder:
+            print(f"- {i}")
 
 
-    def show_mitglieder():
-        Mitglied
-
+team_dev = Team
 team_dev = Team("Die Entwickler")
+team_dev.add_mitglied(Mitglied("Anna"))
 
-#team_dev.add_mitglied(Mitglied("Anna"))
+team_dev.show_mitglieder()
