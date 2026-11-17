@@ -22,5 +22,7 @@ class Team:
 team_dev = Team
 team_dev = Team("Die Entwickler")
 team_dev.add_mitglied(Mitglied("Anna"))
+team_dev.add_mitglied(Mitglied("Ben"))
+team_dev.add_mitglied(Mitglied("Clara"))
 
 team_dev.show_mitglieder()
