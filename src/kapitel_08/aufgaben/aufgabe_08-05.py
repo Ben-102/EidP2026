@@ -16,7 +16,6 @@ class BildPost(Post):
 
     def anzeigen(self):
         return super().anzeigen()
-        print("ffdf")
 
 
 class VideoPost(Post):
