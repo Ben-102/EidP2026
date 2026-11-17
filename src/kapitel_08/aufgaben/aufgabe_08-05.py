@@ -6,7 +6,7 @@ class Post:
         self.inhalt = inhalt
 
     def anzeigen(self):
-        print()
+        print(f"--- Post von {self.autor} ---\n{self.inhalt}\n---------------")
 
 
 class BildPost(Post):
@@ -23,4 +23,6 @@ class VideoPost(Post):
         super().__init__(autor, inhalt)
         self.video_datei = video_datei
 
+
 text_post = Post("user123", "Das ist ein einfacher Text-Post.")
+text_post.anzeigen()
