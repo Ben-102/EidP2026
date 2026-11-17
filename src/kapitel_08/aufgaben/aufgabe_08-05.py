@@ -22,15 +22,22 @@ class BildPost(Post):
 
 
 class VideoPost(Post):
-    def __init__(self, autor, inhalt, video_datei):
+    def __init__(self, autor, inhalt, video_datei, dauer):
         super().__init__(autor, inhalt)
         self.video_datei = video_datei
+        self.dauer = dauer
 
     def anzeigen(self):
-        return super().anzeigen()
+        super().anzeigen()
+        print(
+            f"--- Video-Post von {self.autor} ---\n{self.inhalt}\n[{self.video_datei} ({self.dauer})]\n------------"
+        )
 
 
 text_post = Post("user123", "Das ist ein einfacher Text-Post.")
 text_post.anzeigen()
 
 bild_post = BildPost("insta_star", "Urlaubsfoto! #sommer", "sonnenuntergang.jpg")
+video_post = VideoPost(
+    "youtuber", "Mein neues Tutorial ist online!", "anleitung.mp4", 65
+)
