@@ -9,4 +9,9 @@ class Post:
         print()
 
 class BildPost:
-    def Post
+    def Post(self, bild_datei)
+        super().__init__()
+        self.bild_datei = bild_datei
+
+class VideoPost:
+    def 
