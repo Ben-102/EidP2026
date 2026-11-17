@@ -10,8 +10,8 @@ class Team:
         self.team_namen = team_namen
         self.Mitglieder = []
 
-    def add_mitglied(self, namen):
-        self.Mitglieder.append(namen)
+    def add_mitglied(self, mitglied):
+        self.Mitglieder.append(mitglied)
 
     def show_mitglieder(self):
         print(f"Team: {self.team_namen}\n----------------")
