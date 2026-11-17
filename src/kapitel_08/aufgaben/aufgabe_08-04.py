@@ -16,7 +16,7 @@ class Team:
     def show_mitglieder(self):
         print(f"Team: {self.team_namen}\n----------------")
         for i in self.Mitglieder:
-            print(f"- {i}")
+            print(f"- {i.namen}")
 
 
 team_dev = Team
