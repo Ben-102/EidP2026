@@ -6,7 +6,7 @@ class Post:
         self.inhalt = inhalt
 
     def anzeigen(self):
-        print(f"--- Post von {self.autor} ---\n{self.inhalt}\n---------------")
+        print(f"--- Post von {self.autor} ---\n{self.inhalt}\n---------------\n")
 
 
 class BildPost(Post):
@@ -17,7 +17,7 @@ class BildPost(Post):
     def anzeigen(self):
         super().anzeigen()
         print(
-            f"--- Bild-Post von {self.autor} ---\n{self.inhalt}\n[{self.bild_datei}]\n------------"
+            f"--- Bild-Post von {self.autor} ---\n{self.inhalt}\n[{self.bild_datei}]\n------------\n"
         )
 
 
@@ -30,7 +30,7 @@ class VideoPost(Post):
     def anzeigen(self):
         super().anzeigen()
         print(
-            f"--- Video-Post von {self.autor} ---\n{self.inhalt}\n[{self.video_datei} ({self.dauer})]\n------------"
+            f"--- Video-Post von {self.autor} ---\n{self.inhalt}\n[{self.video_datei} ({self.dauer})]\n------------\n"
         )
 
 
