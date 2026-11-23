@@ -3,7 +3,9 @@
 eintraege = []
 
 while input("Hf: ") == "fertig":
-    eintraege = input("Hinzufügen: ")
+    continue
+else:
+    eintraege = input
 
 with open("logbuch.txt", "a") as logbuch:
     for i in eintraege:
