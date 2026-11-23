@@ -1,11 +1,15 @@
 # Aufgabe 09-01
+import datetime
+
 #  TODO: Ihre Lösung hier
 eintraege = []
-
-while input("Hf: ") == "fertig":
+fertig = False
+while fertig == True:
     continue
 else:
-    eintraege = input
+    eintraege = input("Hinzufügen: ")
+    if eintraege == fertig:
+        fertig = True
 
 with open("logbuch.txt", "a") as logbuch:
     for i in eintraege:
