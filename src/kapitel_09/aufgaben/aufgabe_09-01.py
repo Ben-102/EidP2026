@@ -18,4 +18,4 @@ with open("logbuch.txt", "a") as logbuch:
         logbuch.write(i)
 
 with open("logbuch.txt", "r") as logbuch:
-    print(logbuch.read())
+    print(f"{logbuch.read()}\n")
