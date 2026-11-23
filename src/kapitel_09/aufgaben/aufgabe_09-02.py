@@ -3,4 +3,6 @@
 
 
 with open("config.ini", "r") as name:
-    print(name.read)
+    if name.read != "":
+        print(f"Konfiguration erfolgreich geladen: {name.read}")
+    else:
