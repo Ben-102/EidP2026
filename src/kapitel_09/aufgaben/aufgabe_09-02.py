@@ -7,7 +7,7 @@ try:
             schlüssel, wert = zeile.split("=")
             tabelle[schlüssel] = wert
 
-        print("")
+        print(f"Konfiguration erfolgreich geladen: {config}")
 except FileNotFoundError:
     print(
         "Fehler: Konfigurationsdatei 'config.ini' nicht gefunden. Standardwerte werden verwendet."
