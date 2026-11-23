@@ -6,5 +6,4 @@ eintraege = input("Hinzufügen: ")
 with open("logbuch.txt", "a") as logbuch:
     for i in eintraege:
         logbuch.write(i)
-
-print(logbuch)
+    print(logbuch.read)
