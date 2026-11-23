@@ -2,3 +2,5 @@
 #  TODO: Ihre Lösung hier
 
 
+with open("config.ini","r"):
+    
