@@ -4,12 +4,14 @@ import datetime
 #  TODO: Ihre Lösung hier
 eintraege = []
 fertig = False
-while fertig == True:
-    continue
-else:
+while fertig == False:
     eintraege = input("Hinzufügen: ")
     if eintraege == fertig:
         fertig = True
+    else:
+        continue
+else:
+    break
 
 with open("logbuch.txt", "a") as logbuch:
     for i in eintraege:
